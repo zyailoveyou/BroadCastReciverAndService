@@ -69,13 +69,11 @@ public class jumptotargetActivity extends Activity implements View.OnClickListen
             public void onClick(View v) {
 
 
-
                 Intent fanhui = new Intent();
 
                 fanhui.putExtra("wori","返回了");
 
                 setResult(0000,fanhui);
-
 
                 finish();
                 
